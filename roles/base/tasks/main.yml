@@ -1,9 +1,0 @@
----
-- name: Caddyfile
-  ansible.builtin.template:
-    src: templates/frontend.caddy
-    dest: /etc/caddy/
-    owner: caddy
-    group: caddy
-    mode: "0660"
-  notify: Restart caddy

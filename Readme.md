@@ -47,7 +47,7 @@ journalctl -u graph-build --since "1 day ago"
 
 **aliases**
 
-To see the complete list of useful aliases check out [`alias.sh`](roles/base/templates/alias.sh).
+To see the complete list of useful aliases check out [`alias.sh`](roles/apache/templates/alias.sh).
 
 ### Further reading
 

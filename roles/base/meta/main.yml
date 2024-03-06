@@ -1,4 +1,0 @@
----
-dependencies:
-  - role: devsec.hardening.ssh_hardening
-  - role: geerlingguy.swap
