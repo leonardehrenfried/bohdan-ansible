@@ -2,4 +2,4 @@
 - name: Install apache
   ansible.builtin.package:
     name: apache2
-    state: abssent
+    state: absent
