@@ -1,0 +1,4 @@
+islandtransit.leonard.io {
+  file_server browse
+  root * /var/www/
+}

@@ -1,0 +1,52 @@
+{
+  "routingDefaults": {
+    "accessEgress": {
+      "maxDurationForMode": {
+        "BIKE_TO_PARK": "30m",
+        "CAR_TO_PARK": "30m",
+        "BIKE_RENTAL": "30m",
+        "BIKE": "30m",
+        "WALK": "30m"
+      },
+      "penalty": {
+        "FLEXIBLE": {
+          "timePenalty": "0m + 0t",
+          "costFactor": 0
+        }
+      }
+    },
+    "itineraryFilters": {
+      "nonTransitGeneralizedCostLimit": "0 + 1.0 x"
+    }
+  },
+  "vectorTiles": {
+    "layers": [
+      {
+        "name": "stops",
+        "type": "Stop",
+        "mapper": "Digitransit",
+        "maxZoom": 20,
+        "minZoom": 14,
+        "cacheMaxSeconds": 600
+      },
+      {
+        "name": "stations",
+        "type": "Station",
+        "mapper": "Digitransit",
+        "maxZoom": 20,
+        "minZoom": 12,
+        "cacheMaxSeconds": 600
+      }
+    ]
+  },
+  "flex" : {
+    "maxFlexTripDuration" : "90m"
+  },
+  "transit": {
+    "maxNumberOfTransfers": 4,
+    "dynamicSearchWindow": {
+      "minWindow": "6h",
+      "maxWindow": "18h"
+    }
+  }
+}

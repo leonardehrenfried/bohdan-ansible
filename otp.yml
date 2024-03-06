@@ -1,0 +1,9 @@
+---
+
+- name: Apply the OTP stack
+  hosts: all
+  # use this user if you don't have an account yet
+  user: root
+  become: yes
+  roles:
+    - role: leonardehrenfried.baseline.base

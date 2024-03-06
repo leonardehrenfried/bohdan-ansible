@@ -1,0 +1,8 @@
+{
+  "otpFeatures" : {
+    "ParallelRouting": true,
+    "FlexRouting": true,
+    "FaresV2": false,
+    "SandboxAPIMapboxVectorTilesApi": true
+  }
+}
